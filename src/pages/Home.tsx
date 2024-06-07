@@ -1,14 +1,16 @@
-import React from "react";
-import { useFinancialData } from "../hooks/useFinancialData";
-import CandleStickChart from "../components/CandleStickChart";
-import StockChart from "../components/Chart";
+import CandleStickChart from "../components/CandleStickChart/CandleStickChart";
+import KeyRatioTable from "../components/KeyRationTable/KeyRatioTable";
+import AnalystEstimates from "../components/AnalystEstimates/AnalystEstimates";
+import News from "../components/news/News";
 import "./Home.css";
 
 export default function Home() {
   return (
     <main>
       <CandleStickChart />
-      {/* <StockChart /> */}
+      <KeyRatioTable />
+      <AnalystEstimates />
+      <News />
     </main>
   );
 }

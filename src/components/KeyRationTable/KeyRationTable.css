@@ -1,0 +1,15 @@
+.ratio-table-container {
+    position: relative;
+    margin-top: 10rem;
+    width: 80%;
+}
+
+.ratio-table {
+    background-color: var(--bg-color);
+    color: var(--text-color);
+}
+
+.ratio-title {
+    margin-bottom: 1rem;
+    font-weight: 700;
+}
